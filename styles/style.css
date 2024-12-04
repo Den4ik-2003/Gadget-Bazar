@@ -1,0 +1,851 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#first .flex {
+    justify-content: space-between;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+.container {
+    padding: 0 105px;
+}
+
+.flex {
+    display: flex;
+    align-items: center; 
+}
+
+.inline-flex {
+    display: inline-flex;
+    align-items: center; 
+}
+
+
+.spaceBetween {
+    justify-content: space-between;
+}
+
+.main {
+    z-index: -1;
+    background: linear-gradient(125deg, white 65%, gray);
+}
+
+header {
+    padding-top: 25px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.gadget {
+    font-size: 24px;
+    font-weight: 900;
+    color: #000;
+}
+
+.blue {
+    color: #3498DB;
+}
+
+.bgBlue {
+    background-color: #3498DB;
+}
+
+.nav li {
+    margin-right: 20px;
+}
+
+.nav li a {
+    color: #000;
+    font-weight: 600;
+}
+
+.nav li:last-child {
+    margin-right: 20px;
+}
+
+.btnBuy {
+    color: #fff;
+    font-weight: 600;
+    padding: 13px 38px;
+    border-radius: 8px;
+    border: 0;
+    cursor: pointer;
+}
+
+.order li {
+    margin-right: 20px;
+}
+
+.order li:last-child {
+    margin-right: 0;
+}
+
+.title {
+    text-align: center;
+    font-weight: 900;
+}
+
+.about {
+    width: 900px;
+    margin: 75px auto;
+}
+
+.about p {
+    width: 60%;
+    text-align: center;
+    margin-top: 27px;
+    margin: 20px auto;
+}
+
+.info {
+    height: 400px;
+    background-image: url(../images/about-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card {
+    background-color: #BBDEFB;
+    padding: 25px;
+    border-radius: 12px;
+    margin: 77px 0;
+    width: 200px;
+    height: 220px;
+}
+
+.spaceAround {
+    justify-content: space-around;
+}
+
+.card img {
+    border-radius: 9px;
+    margin-bottom: 30px;
+}
+
+.card:last-child {
+    margin-right: 0;
+}
+
+.products {
+    margin-top: 25px;
+}
+
+.products .block:first-child,
+.products .block:last-child {
+    width: 30%;
+}
+
+.block {
+    margin-right: 15px;
+}
+
+.product {
+    margin: 75px 0;
+}
+
+.bigLogo {
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.products div p {
+    margin: 30px 0;
+}
+
+.btnMore a {
+    color: #fff;
+    margin-right: 7px;
+}
+
+.btnMore {
+    padding: 13px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.info2 {
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+
+.info3 {
+    margin-top: 77px;
+}
+
+.ml50 {
+    margin-left: 50px;
+}
+
+.contact {
+    margin-top: 77px;
+}
+
+.contInfo p {
+    margin-left: 25px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.contInfo {
+    margin-top: 15px;
+}
+
+.contInfo:first-child {
+    margin-top: 0;
+}
+
+.contInfo div {
+    width: 50px;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+footer div {
+    text-align: center;
+    padding: 25px 0;
+}
+
+footer div a {
+    font-weight: 600;
+    color: #fff;
+}
+
+.cards {
+    margin-top: 77px;
+}
+
+.cards h1 {
+    margin-bottom: 25px;
+}
+
+.cards-p {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.flexCard {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-weight: 600;
+}
+
+.c {
+    margin: 30px 15px 77px 15px;
+}
+
+.flexCard img {
+    width: 250px;
+}
+
+.flexCenter {
+    justify-content: center;
+}
+
+.c p {
+    font-weight: 800;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.mainTitle {
+    font-weight: 900;
+    font-size: 64px;
+    margin-bottom: 25px;
+}
+
+.mainText {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.spaceCenter {
+    justify-content: center;
+}
+
+.w45 {
+    width: 45%;
+}
+
+.back {
+    margin: 20px;
+    width: 35px;
+}
+
+.love,
+.music,
+.puzzle,
+.delivery {
+    position: absolute;
+}
+
+.love {
+    top: 156px;
+    right: 120px;
+}
+
+.music {
+    top: 250px;
+    right: 20px;
+}
+
+.puzzle {
+    top: 350px;
+    right: 120px;
+}
+
+.delivery {
+    top: 450px;
+    right: 150px;
+}
+
+.card {
+    margin: 20px;
+}
+
+.bask {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border: 2px solid grey;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.basks {
+    margin-right: 15px;
+}
+
+.delet {
+    width: 35px;
+}
+
+.productImg {
+    width: 100px;
+}
+
+.oplata {
+    padding: 20px;
+    background-color: lightblue;
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.count {
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin: 0 7px;
+}
+
+.count p {
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.basks {
+    width: 50%;
+}
+
+.pPrice {
+    margin-right: 7px;
+}
+
+.pInfo {
+    margin-left: 7px;
+}
+
+.pInfo p:first-child {
+    font-weight: 900;
+}
+
+.delet {
+    cursor: pointer;
+}
+
+.count p:nth-child(2) {
+    margin: 0 20px;
+} 
+
+.prices {
+    display: flex;
+    margin: 15px;
+}
+
+#orderModal {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.save {
+    width: 20%;
+}
+
+#orderModal h2 {
+    text-align: center;
+    font-size: 54px;
+    margin-bottom: 10px;
+}
+
+.c .flex .bas {
+    width: 40px;
+    margin-left: 10px;
+}
+
+.btnBuyBasket {
+    padding: 10px 20px;
+    border-radius: 7px;
+    background-color: #3498DB;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.n {
+    margin-bottom: 10px;
+}
+
+.n p {
+    width: 100px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+#btnBuy {
+    margin: 20px auto;
+}
+
+input {
+    outline: 0;
+}
+
+#name,
+#twoName,
+#lastName,
+#city,
+#telephone,
+#del,
+#street {
+    padding-left: 5px;
+}
+
+.save {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto;
+    width: 500px;
+    display: none;
+}
+
+.save img {
+    width: 50%;
+    margin: 20px auto;
+}
+
+@media screen and (max-width: 1490px) {
+    .mainTitle,
+    .info2,
+    .title {
+        font-size: 48px;
+    }
+
+    .w45 {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 1360px) {
+    .mainTitle,
+    .info2,
+    .title {
+        font-size: 36px;
+    }
+
+    .w45 {
+        width: 35%;
+    }
+
+    .im {
+        width: 60%;
+    }
+
+    .card {
+        height: 250px;
+    }
+
+    .card img {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    .info .flex {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding-top: 25px;
+    }
+
+    .info {
+        height: 700px;
+    }
+
+    .card {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .delivery,
+    .puzzle,
+    .music,
+    .love {
+        display: none;
+    }
+
+    .container {
+        padding: 0 55px;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    .w45 {
+        margin-right: 20px;
+    }
+
+    .c .flex .bas {
+        width: 30px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 995px) {
+    .blImage,
+    .bigLogo {
+        display: none;
+    }
+
+    .products {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .products .block {
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .contact .flex,
+    .in4 {
+        flex-wrap: wrap;
+    }
+
+    #orderModal h2 {
+        font-size: 30px;
+    }
+
+    .in4 {
+        text-align: center;
+    }
+
+    .im {
+        margin: 0 auto;
+    }
+
+    .about {
+        width: 500px;
+    }
+
+    .contInfo p {
+        font-size: 20px;
+    }
+
+    .c img {
+        width: 200px;
+    }
+
+    .block p {
+        margin-top: 10px;
+    }
+
+    .cards {
+        margin-top: 40px;
+    }
+
+    .product,
+    .about {
+        margin: 40px auto;
+    }
+
+    .products div p {
+        margin: 10px 0;
+    }
+
+    .ml50 {
+        margin-left: 0;
+    }
+
+    .btnMore {
+        padding: 7px;
+    }
+
+    .btnBuy {
+        padding: 7px 10px;
+    }
+
+    footer div a {
+        font-size: 10px;
+    }
+
+    footer div {
+        padding: 7px 0;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .prices {
+        flex-wrap: wrap;
+    }
+
+    .basks {
+        width: 100%;
+    }
+
+    .basks {
+        margin-right: 0;
+    }
+
+    .oplata {
+        width: 100%;
+    }
+
+    .count p {
+        font-size: 16px;
+    }
+
+    .c .flex .bas {
+        width: 30px;
+        margin-left: 10px;
+    }
+
+    .productImg {
+        width: 50px;
+    }
+
+    .delet {
+        width: 25px;
+    }
+
+    .bask {
+        padding: 7px;
+    }
+
+    .count {
+        padding: 3px 7px;
+    }
+
+    .count p:nth-child(2) {
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width: 825px) { 
+.mainTitle,
+.info2,
+.title {
+    font-size: 20px;
+    text-align: center;
+}
+
+.ml50 {
+    margin: 0 auto;
+}
+
+.cards {
+    margin-top: 25px;
+}
+
+.nav,
+    .order {
+        display: none;
+    }
+
+    #burger {
+        display: inline;
+        cursor: pointer;
+    }
+
+.product {
+    margin: 20px 0;
+}
+
+.cards h1 {
+    margin-bottom: 10px;
+}
+
+.mainText {
+    font-size: 16px;
+}
+
+.c {
+    margin: 20px;
+}
+
+.c img {
+    width: 150px;
+}
+
+.info {
+    display: none;
+}
+
+.about {
+    width: 400px;
+}
+
+.about p {
+    font-size: 16px;
+}
+
+.product .products .block {
+    width: 300px;
+}
+
+.product .products .block p {
+    font-size: 16px;
+}
+
+.container .flex {
+    flex-wrap: wrap;
+}
+
+.w45 {
+    width: 100%;
+    text-align: center;
+}
+
+.c p {
+    font-size: 16px;
+}
+
+.contInfo p {
+    font-size: 16px;
+    margin-left: 0;
+}
+
+.contInfo div {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.contInfo div img {
+    width: 20px;
+}
+
+header ul li:first-child {
+    margin: 0 auto;
+}
+
+.container {
+    padding: 0 25px;
+}
+}
+
+@media screen and (max-width: 450px) {
+    .product .products .block {
+        width: 200px;
+    }
+
+    .about {
+        width: 300px;
+    }
+
+    .mainTitle, .info2, .title {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .cards-p,
+    .product .products .block p,
+    .about p,
+    .contInfo p,
+    .mainText {
+        font-size: 14px;
+    }
+
+    .c p {
+        font-weight: 700;
+    }
+
+    .bask {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .count {
+        margin: 10px 0;
+    }
+
+    .n {
+        display: block;
+    }
+
+    .n p {
+        margin-bottom: 5px;
+    }
+
+    .n2 {
+        display: flex;
+    }
+
+    .btnBuyBasket {
+        font-size: 16px;
+    }
+    
+}
+
